@@ -7,6 +7,8 @@ X and Y value, for which you will get the result of the function F
 
 The API is subject to change as it's probably not perfect
 
+Also, pretty sure it isn't working
+
 Example
 =======
 
