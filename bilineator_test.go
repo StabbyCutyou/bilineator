@@ -19,8 +19,8 @@ func TestBilineator(t *testing.T) {
 		Q22: 40.0,
 	}
 
-	log.Println(b.Bilineate(14.0, 20.0))
-	log.Println(b.Bilineate(15.0, 20.0))
-	log.Println(b.Bilineate(14.0, 21.0))
-	log.Println(b.Bilineate(15.0, 21.0))
+	log.Println(b.Bilineate(5.0, 6.0))
+	log.Println(b.Bilineate(5.0, 11.0))
+	log.Println(b.Bilineate(10.0, 6.0))
+	log.Println(b.Bilineate(10.0, 11.0))
 }
