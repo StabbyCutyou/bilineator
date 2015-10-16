@@ -2,10 +2,19 @@ Bilineator
 ===========
 
 Provide X1,Y1 and X2,Y2, along with the results of an assumed function F for each
-combination of inputs Q11, Q12, Q21, Q22, you can call Bilineate and provide an
-X and Y value, for which you will get the result of the function F
+permutation of the inputs: Q11(X1,Y1), Q12(X1,Y2), Q21(X2,Y1), Q22(X2Y2), you can
+call Bilineate and provide an X and Y value, for which you will get the result of
+the function F
 
 The API is subject to change as it's probably not perfect
+
+Precision
+==========
+The current equation, per the tests, shows it appears to be accurate up to 12 places
+past the decimal point. After that, the math breaks down and some variance creeps in.
+
+Or, floats are the problem. They can often be a problem. So you shouldn't use this library
+to Bilineate any monetary values or something.
 
 Example
 =======
